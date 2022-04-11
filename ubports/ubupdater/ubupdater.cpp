@@ -48,7 +48,7 @@ void show_installation_error(RecoveryUI *ui, int result) {
     ui->SetProgressType(RecoveryUI::EMPTY);
 }
 
-int do_ubuntu_update(RecoveryUI *ui){
+InstallResult do_ubuntu_update(RecoveryUI *ui){
     // Disable text because otherwise the animation is not showing
     ui->ShowText(false);
 

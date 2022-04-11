@@ -17,5 +17,5 @@
  */
 #include <recovery_ui/ui.h>
 
- int do_ubuntu_update(RecoveryUI *ui);
+ InstallResult do_ubuntu_update(RecoveryUI *ui);
  int do_test_update(RecoveryUI *ui);
