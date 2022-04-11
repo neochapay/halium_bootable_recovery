@@ -37,5 +37,6 @@ cc_library_static {
         "libfs_mgr",
         "libinstall",
         "libotautil",
+        "librecovery_utils"
     ],
 }

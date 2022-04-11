@@ -18,7 +18,7 @@
 #include <unistd.h>
 
 #include <install/install.h>
-#include <otautil/roots.h>
+#include <recovery_utils/roots.h>
 #include <recovery_ui/ui.h>
 
 static const char *UBUNTU_COMMAND_FILE = "/cache/recovery/ubuntu_command";
